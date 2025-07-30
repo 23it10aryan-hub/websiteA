@@ -1,15 +1,73 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My CSS Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome to Aryan's Hub</title>
+  <style>
+    /* Background image covering entire page */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #f0f0f0;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+
+    h2 {
+      font-weight: 400;
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .btn {
+      margin-top: 2rem;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border: 2px solid #fff;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #fff;
+      color: #333;
+      border-color: #fff;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple HTML and CSS site hosted on GitHub Pages.</p>
-    </div>
+  <h1>Welcome to Aryan's Hub</h1>
+  <h2>Your Gateway to Creativity & Technology</h2>
+  <p>
+    Explore my projects, blog posts, and portfolio showcasing passion for coding, design, and innovation. Stay tuned for exciting updates and new content!
+  </p>
+  <a href="#projects" class="btn">See My Work</a>
 </body>
 </html>
